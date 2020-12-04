@@ -6,9 +6,59 @@
     <meta name="description" content="Nghi Tran Portfolio Website">
     <meta name="keywords" content="portfolio">
     <meta name="author" content="Nghi Tran">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/normalized.css" type="text/css" rel="stylesheet">
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
   </head>
 
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
   <body>
-  <h1>hello</h1>
+
+    <!-- navigation bar -->
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Nghi Tran</a>
+      <a href="#news">About Me</a>
+      <a href="#contact">Porfolio</a>
+      <a href="#about">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- end navigation bar -->
+
+    <!-- introduction -->
+    <div class="intro" id="intro">
+      <div class="intro-container">
+        <p>
+          I'm <b> Nghi Tran.</b><br>
+          Graphic Designer
+        </p>
+      </div>
+    </div>
+    <!-- end introduction -->
+
+
+
+
+
+
+
   </body>
 </html>

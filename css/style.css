@@ -8,13 +8,21 @@ h1 {
 
 body {
   margin: 0;
-  padding: 40px;
+  padding: 40px 70px;
   font-family: 'Work Sans',Helvetica, sans-serif;
 }
 
+.header {
+  background: white;
+  padding-bottom: 40px;
+
+
+}
+
+
+
 .topnav {
   overflow: hidden;
-
 }
 
 .topnav a {
@@ -57,9 +65,40 @@ body {
 
 }
 
+.fa-instagram {
+  color: black;
+}
+
+.fa-facebook-square {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: black;
+}
+
+ .mailto a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  right: 70px;
+  bottom: 40px;
+  padding: 16px;
+
+}
 
 
-@media screen and (max-width: 600px) {
+
+
+
+
+@media screen and (max-width: 650px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -69,7 +108,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
